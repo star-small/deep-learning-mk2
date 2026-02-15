@@ -1,0 +1,57 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# virtual environments
+venv/
+env/
+ENV/
+
+# pytorch
+*.pth
+*.pt
+
+# logs and outputs
+logs/*.txt
+logs/*.png
+saved_models/*.pth
+saved_models/*.zip
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# os
+.DS_Store
+Thumbs.db
+
+# jupyter
+.ipynb_checkpoints/
+
+# retro roms
+*.md
+*.nes
+*.sfc
+*.gen
+*.sms
